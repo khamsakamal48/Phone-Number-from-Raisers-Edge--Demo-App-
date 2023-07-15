@@ -28,7 +28,7 @@ st.write('##')
 
 # Define Functions
 # Load the Parquet file into a Pandas dataframe
-# @st.cache_data(ttl=3600) # Reset cache every 1 Hour
+@st.cache_data() # Reset cache every 1 Hour
 def get_data():
     data = pd.read_parquet('Database/RE Data.parquet')
     return data
