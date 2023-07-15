@@ -54,10 +54,11 @@ python3 'Get Refresh Token.py'
 ```shell
 @hourly cd Phone-Number-from-Raisers-Edge--Demo-App- && python3 'Get Refresh Token.py'> /dev/null 2>&1
 ```
-- To reun the web app
+- To run the web app
 ```shell
 streamlit run App.py
 ```
+- The app will be then accessible over `http://IP-Address-of-your-machine:8503/phone/`
 
 ## Note:
 - This app is a mockup designed to retrieve phone numbers from Raisers Edge NXT based on Name, Degree, Department, and Batch.
